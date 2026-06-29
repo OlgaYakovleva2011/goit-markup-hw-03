@@ -7,22 +7,17 @@
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.03em;
-    width: 115px;
-    height: 24px;
 }
 .span{
     color: #2E2F42;
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    word-spacing: 15px;
 }
 a{
     text-decoration: none;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 a:hover{
     color:#404bbf;
@@ -32,6 +27,11 @@ a:focus{
 }
 .header{
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #e7e9fc;
     gap: 40px;
 }
 address{
@@ -39,12 +39,10 @@ address{
 }
 .contact{
     color:#434455;
+    justify-content: space-between;
 }
-.container{
-    gap: 40px;
-    max-width: 1158px;
+.container-header{
     display: flex;
     align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    justify-content: space-between;
 }

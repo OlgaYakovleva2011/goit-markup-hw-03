@@ -7,6 +7,10 @@ body{
 }
 ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 0;
 }
 .sr-only{
     position: absolute;
@@ -19,4 +23,14 @@ ul{
     clip: rect(0 0 0 0);
     clip-path: inset(100%);
     margin: -1px;
+}
+.container {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h1,h2,h3,p{
+    margin: 0;
 }
