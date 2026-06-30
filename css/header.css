@@ -31,11 +31,14 @@ a:focus{
     justify-content: space-between;
     padding-right: 15px;
     padding-left: 15px;
-    border-bottom: 1px solid #e7e9fc;
     gap: 40px;
+}
+header{
+    border-bottom: 1px solid #e7e9fc;
 }
 address{
     font-style: normal;
+    margin-left: auto;
 }
 .contact{
     color:#434455;
@@ -44,5 +47,4 @@ address{
 .container-header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }

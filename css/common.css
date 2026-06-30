@@ -8,9 +8,8 @@ body{
 ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
     margin: 0;
-    padding-left: 0;
+    padding: 0;
 }
 .sr-only{
     position: absolute;
@@ -25,11 +24,7 @@ ul{
     margin: -1px;
 }
 .container {
-    gap: 24px;
-    display: flex;
-    align-items: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin: 0 auto;
 }
 h1,h2,h3,p{
     margin: 0;

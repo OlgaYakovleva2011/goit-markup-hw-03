@@ -1,10 +1,10 @@
-.portfolio{
+.portfolio1{
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 50px;
+    margin-bottom: 72px;
 }
 .portfolio-title{
     font-weight: 500;
@@ -30,7 +30,7 @@
     padding: 0;
     flex-basis: calc((100%-48px)/3);
 }
-.container-portfolio{
+.portfolio{
     margin-left: auto;
     margin-right: auto;
     padding-top: 120px;
