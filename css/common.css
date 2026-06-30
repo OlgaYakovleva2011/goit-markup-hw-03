@@ -7,7 +7,6 @@ body{
 }
 ul{
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
 }
@@ -24,8 +23,26 @@ ul{
     margin: -1px;
 }
 .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1158px;
     margin: 0 auto;
 }
 h1,h2,h3,p{
     margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+
+a:hover {
+    color: #404bbf;
+}
+
+a:focus {
+    color: #404bbf;
 }

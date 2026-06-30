@@ -11,40 +11,22 @@
 .span{
     color: #2E2F42;
 }
-a{
-    text-decoration: none;
-    color: #2E2F42;
-    letter-spacing: 0.02em;
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-a:hover{
-    color:#404bbf;
-}
-a:focus{
-    color:#404bbf;
-}
 .header{
     font-weight: 500;
     display: flex;
     justify-content: space-between;
     padding-right: 15px;
     padding-left: 15px;
-    gap: 40px;
-}
-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
-}
-address{
-    font-style: normal;
-    margin-left: auto;
 }
 .contact{
     color:#434455;
-    justify-content: space-between;
+    font-style: normal;
+    margin-left: auto;
 }
-.container-header{
+.header1{
     display: flex;
-    align-items: center;
+    gap: 40px;
 }
